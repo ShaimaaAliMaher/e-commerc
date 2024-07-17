@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: linear-gradient(90deg ,#FEFAF6 ,#DAC0A3);
+}
+nav{
+  background: linear-gradient(90deg ,#f7f4e6 ,#e7dec2);
+  font-size: 26px;
+}
+.navbar-brand{ 
+  font-size: 30px;
+  font-weight: 600;
+  background: -webkit-linear-gradient(90deg ,#7e644a ,#DAC0A3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav ul li{
+  margin-left: 9px;
+}
+.imag{
+  height: 500px;
+}
+.btn{
+  background: linear-gradient(90deg ,#A79277 ,#e6cdae);
+  font-weight: bold;
+  margin-left: 12px;
+  border: #5f5649;
+}
+.card-img-top{
+  width: 90%;
+  margin: auto;
+  height: 240px;
+  padding-top: 10px;
+}
+.card{
+background-color: #fffded;
+margin: auto;
+margin-top: 17px;
+max-width: 500px;
+min-height: 500px;
+}
+.card-title{
+  /* font-weight: 600; */
+  color: #473625;
+  height: 80px;
+}
+.price{
+  font-size: 19px;
+  font-weight:bold;
+}
+.All{
+  margin-left: 20%;
+}
+.pag{
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 40%;
+ margin: auto;
+ padding: 3px;
+ 
+}
+.pag li a {
+   border-radius: 9px;
+  padding: 0.1rem 1rem;
+  border: rgb(177, 161, 129) 1px solid;
+  cursor: pointer;
+}
+ul.pag li.previous a,
+ul.pag li.next a {
+  border-color: transparent;
+  color: #473625;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+ul.pag li.selected a {
+  background-color:#A79277;
+  border-color: transparent;
+  color: white;
+  min-width: 32px;
+}
+ul.pag li.disabled a {
+  color: #868583;
+}
